@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projecteProva2", "projecteProva2.csproj", "{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryProva2", "..\libraryProva2\libraryProva2.csproj", "{AC0166B6-DB8F-4B89-948E-8882A54A823D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCA070D9-E593-4242-9DB3-2BD1DE617191}
+	EndGlobalSection
+EndGlobal
