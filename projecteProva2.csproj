@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SearchClass\SearchClass.csproj" />
+  </ItemGroup>
+
 </Project>
