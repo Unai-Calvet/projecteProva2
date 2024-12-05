@@ -4,8 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projecteProva2", "projecteProva2.csproj", "{C3E382AE-EBA3-471B-A2BE-46CC69EA2971}"
+	ProjectSection(ProjectDependencies) = postProject
+		{428D8F9E-8B69-4A57-9E28-B3A094622263} = {428D8F9E-8B69-4A57-9E28-B3A094622263}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryProva2", "..\libraryProva2\libraryProva2.csproj", "{AC0166B6-DB8F-4B89-948E-8882A54A823D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchClass", "..\SearchClass\SearchClass.csproj", "{428D8F9E-8B69-4A57-9E28-B3A094622263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstSort", "..\FirstSort\FirstSort.csproj", "{49834340-8F4A-4BCF-B013-117A867D7895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,14 @@ Global
 		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0166B6-DB8F-4B89-948E-8882A54A823D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428D8F9E-8B69-4A57-9E28-B3A094622263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428D8F9E-8B69-4A57-9E28-B3A094622263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428D8F9E-8B69-4A57-9E28-B3A094622263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428D8F9E-8B69-4A57-9E28-B3A094622263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49834340-8F4A-4BCF-B013-117A867D7895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49834340-8F4A-4BCF-B013-117A867D7895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49834340-8F4A-4BCF-B013-117A867D7895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49834340-8F4A-4BCF-B013-117A867D7895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
